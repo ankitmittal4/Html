@@ -1,0 +1,24 @@
+hr{
+    width: 500px;
+    margin-left: 0;
+    border: 2px dashed green;
+    box-sizing: border-box;
+}
+.box1{
+    width: 500px;
+    background-color:bisque;
+    border: 10px solid red;
+    padding: 30px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    /* box-sizing: content-box; */
+}
+.box2{
+    
+    width: 500px;
+    background-color:bisque;
+    border: 10px solid red;
+    padding: 30px;
+    /* box-sizing: content-box; */
+    /* box-sizing: border-box; */
+}

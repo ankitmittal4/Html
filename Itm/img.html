@@ -1,0 +1,68 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 30px;
+            padding: 10px;
+            height: 100vh;
+        }
+
+        a {
+            display: block;
+            overflow: hidden;
+            border: 2px solid transparent;
+            border-radius: 10px;
+            transition: border-color 0.3s, transform 0.3s;
+            margin-top: 75px;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s;
+        }
+
+        a:hover {
+            border-color: #0073e6;
+            transform: scale(1.05);
+        }
+
+        a:hover img {
+            transform: scale(1.1);
+        }
+    </style>
+    <title>Image tag as hyperlink</title>
+
+</head>
+
+<body>
+    <a href="https://www.cricbuzz.com/profiles/9311/jasprit-bumrah" target="_blank"><img
+            src="https://images1.wionews.com/images/wion/900x1600/2023/12/7/1701933558502_fa9e1463e65f25f2a14629978574baf4.jpg"
+            alt="Jasprit bumrah"></a>
+    <a href="https://www.cricbuzz.com/profiles/576/rohit-sharma" target="_blank"><img
+            src="https://static.toiimg.com/photo/104349866/104349866.jpg" alt="bike"></a>
+    <a href="https://www.cricbuzz.com/profiles/1413/virat-kohli" target="_blank"><img
+            src="https://img.etimg.com/thumb/width-1600,height-900,imgsize-47368,resizemode-75,msid-104999679/news/sports/when-virat-kohli-battled-depression-his-coach-recalls-the-toughest-phase-of-the-cricketers-career.jpg"
+            alt="car"></a>
+    <a href="https://www.cricbuzz.com/profiles/1726/bhuvneshwar-kumar" target="_blank"><img
+            src="https://institute.careerguide.com/wp-content/uploads/2024/04/Bhuvneshwar-Kumar.jpg" alt="car"></a>
+    <a href="https://www.cricbuzz.com/profiles/2250/steven-smith" target="_blank"><img
+            src="https://circleofcricket.com/post_image/post_image_70586f0.jpg" alt="car"></a>
+</body>
+
+</html>

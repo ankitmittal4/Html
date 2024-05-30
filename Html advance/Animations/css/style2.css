@@ -1,0 +1,47 @@
+.box{
+    width: 150px;
+    height: 150px;
+    background: red;
+    border-radius: 50%;
+    position: relative;
+    /* animation-name: move-around;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-timing-function: ease-in-out; */
+    animation: move-around 2s forwards 3s 5 ;
+
+}
+@keyframes move-around{
+    0%{
+        left: 0px;
+        top: 0px;
+        background-color: blueviolet;
+    }
+    10%{
+        /* left: 0px; */
+        top: 0px;
+        background-color:black;
+    }
+    25%{
+        left: 300px;
+        top: 0px;
+        background-color:yellow;
+
+    }
+    50%{
+        left: 300px;
+        top: 300px;
+        background-color: tomato;
+    }
+    75%{
+        left: 0px;
+        top: 300px;
+        background-color:teal;
+    }
+    100%{
+        left: 0px;
+        top: 0px;
+        background-color: black;
+    }
+}

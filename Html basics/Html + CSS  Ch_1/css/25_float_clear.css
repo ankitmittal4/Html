@@ -1,0 +1,41 @@
+.musicians{
+    border: 10px solid red;
+}
+.mozart{
+    width: 25%;
+    background-color: lightblue;
+    
+    float: left;
+    /* padding: 2px; */
+}
+.beethoven{
+    width: 25%;
+    background-color: burlywood;
+    float: left;
+    /* padding: 2px; */
+
+
+}
+.bach{
+    width: 25%;
+    background-color: cadetblue;
+    float: left;
+    /* padding: 2px; */
+
+
+}
+.paganini{
+    width: 25%;
+    background-color: darkgray;
+    float: left;
+    /* padding: 2px; */
+}
+/* .clearfix{
+    clear: both;
+} */
+.musicians::after{
+    content: "";
+    display: block;
+    clear: both;
+
+}

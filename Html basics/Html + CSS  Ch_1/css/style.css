@@ -1,0 +1,23 @@
+/* @import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap'); */
+body{
+    /* font-family: 'BhuTuka Expanded One', cursive; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h1{
+    /* color: rgb(225, 000, 255); */
+    color: #cccccc;
+    background-color: rgb(15, 81, 204);
+}
+.text-color{
+    color: blueviolet;
+}
+.backcolor{
+    background-color: brown;
+}
+/* .h2{
+    color: rgb(228, 24, 160);
+    background-color: rgb(15, 204, 47);
+}
+#para{
+    color: chartreuse;
+} */

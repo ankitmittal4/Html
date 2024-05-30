@@ -1,0 +1,31 @@
+.box{
+    border: 2px solid red;
+    /* height: 800px;
+    width: 800px; */
+}
+.box h1{
+    border: 3px solid green;
+    background-color: aqua;
+    /* position: relative; */
+    /* top: 150px;
+    z-index: -1; */
+    /* right: 20px; */
+    /* left: 20px; */
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    /* position: fixed; */
+    /* top: 0px; */
+    /* bottom: 0px; */
+    position: sticky;
+    top: 0px;
+
+}
+.box h4{
+    border: 2px solid blue;
+    background-color: lightblue;
+}
+.box p{
+    background-color: chartreuse;
+}

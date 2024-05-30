@@ -1,0 +1,30 @@
+h2{
+    /* border-top: 8px solid red; */
+    /* border-bottom: 8px solid red; */
+    /* border-right: 8px solid red; */
+    /* border-left: 8px solid red; */
+    border: 8px solid red;
+    border-radius: 10px;
+
+    
+}
+span{
+    border: 5px solid crimson;
+}
+img{
+    border: 10px dashed green;
+}
+div{
+    border: 10px solid blue;
+
+}
+div ul{
+    /* border: 10px solid yellow; */
+    border-width: 10px;
+    border-style: solid;
+    border-color: black 
+}
+div ul li{
+    border: 1px dashed red;
+
+}

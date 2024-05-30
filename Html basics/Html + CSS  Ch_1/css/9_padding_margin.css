@@ -1,0 +1,27 @@
+h1{
+    border: 50px DASHED red;
+    background-color: bisque;
+    width: 800px;
+    color: blue;
+    /* padding-left: 100px;
+    padding-right:100px ;
+    padding-top: 50px;
+    padding-bottom:50px ;
+    padding: 50px 100px 70px 120px; */
+    padding: 100px;
+
+    margin-top:100px ;
+    margin-bottom: 50px;
+    margin-left: 130px;
+    margin-right: 200px;
+    margin: 100px 50px;
+    margin: 100px 500px 120px 150px;
+    margin: 100px;
+    margin: 50px auto ;
+    text-align: center;
+    text-align: left;
+    text-align: end;
+    text-align: right;
+    text-align: justify;
+    
+}

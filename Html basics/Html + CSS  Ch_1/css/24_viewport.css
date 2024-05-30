@@ -1,0 +1,12 @@
+/* .box{
+    border: 2px solid red;
+    width: 40%;
+}
+h1{
+    border: 2px solid green;
+    width: 70vw;
+} */
+.box{
+    height: 100vh;
+    background-color: red;
+}

@@ -1,0 +1,12 @@
+body :not(.fancy){
+    color: blue;
+}
+div:empty{
+    /* background-color: aqua; */
+    background: aqua;
+    border: 3px solid red;
+}
+:root{
+    background: #333;
+    color:green;
+}

@@ -1,0 +1,15 @@
+#headid{
+    color: crimson;
+    background-color: chartreuse;
+}
+.headclass{
+    color: blue;
+    background-color: bisque;
+}
+h2{
+    color: brown;
+
+}
+div#container ul.my-list ul li.item2{
+    color:crimson;
+}
