@@ -1,0 +1,23 @@
+html{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+}
+.heading{
+    font-size: 20px;
+    padding: 0px 0px 0px 0px ;
+    margin: 20px 0px 0px 20px;
+}
+.box{
+    border: 1px solid black;
+    border-radius: 15px 15px;
+    height: 700px;
+    width: 500px;
+    margin: 90px auto ;
+    position: relative;
+}
+.title{
+    position: absolute;
+    margin: 30px 130px;
+    
+}
